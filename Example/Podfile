@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'TKThemeManagerModule_Example' do
+  pod 'TKThemeManagerModule', :path => '../'
+
+  target 'TKThemeManagerModule_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
