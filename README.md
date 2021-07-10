@@ -132,7 +132,7 @@ ThemeManager.shared.switch(ThemeType.dark.theme)
 
 ## Author
 
-playtomandjerry@outlook.com, playtomandjerry@gmail.com
+FredevTeam@outlook.com, playtomandjerry@gmail.com
 
 ## License
 
