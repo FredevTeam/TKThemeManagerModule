@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TKThemeManagerModule'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A short description of TKThemeManagerModule.'
 
 # This description is used to generate tags and improve search results.
@@ -21,15 +21,15 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/playtomandjerry@outlook.com/TKThemeManagerModule'
+  s.homepage         = 'https://github.com/FredevTeam/TKThemeManagerModule'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'playtomandjerry@outlook.com' => 'playtomandjerry@gmail.com' }
-  s.source           = { :git => 'https://github.com/playtomandjerry@outlook.com/TKThemeManagerModule.git', :tag => s.version.to_s }
+  s.author           = { 'FredevTeam' => 'FredevTeam@outlook.com' }
+  s.source           = { :git => 'https://github.com/FredevTeam/TKThemeManagerModule.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
-
+  s.swift_version = "4.2"
   s.source_files = 'TKThemeManagerModule/Classes/**/*'
   
   # s.resource_bundles = {
