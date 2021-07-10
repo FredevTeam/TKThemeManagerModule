@@ -15,6 +15,11 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		9B24357F269981D600A5B78D /* ThemeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B24357E269981D600A5B78D /* ThemeProtocol.swift */; };
+		9B243581269981F200A5B78D /* LightTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B243580269981F200A5B78D /* LightTheme.swift */; };
+		9B2435832699822F00A5B78D /* DarkTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2435822699822F00A5B78D /* DarkTheme.swift */; };
+		9B2435852699828900A5B78D /* ThemeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2435842699828900A5B78D /* ThemeType.swift */; };
+		9B24358B2699858A00A5B78D /* SubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B24358A2699858A00A5B78D /* SubViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,8 +33,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		022DEE74AC1D9727FC6D38C0 /* TKThemeManagerModule.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TKThemeManagerModule.podspec; path = ../TKThemeManagerModule.podspec; sourceTree = "<group>"; };
-		241DE18A5E646B1A8B8B8FE4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		022DEE74AC1D9727FC6D38C0 /* TKThemeManagerModule.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TKThemeManagerModule.podspec; path = ../TKThemeManagerModule.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		241DE18A5E646B1A8B8B8FE4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		5A80307F00F3358C5E18B4CF /* Pods-TKThemeManagerModule_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TKThemeManagerModule_Example.debug.xcconfig"; path = "Target Support Files/Pods-TKThemeManagerModule_Example/Pods-TKThemeManagerModule_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* TKThemeManagerModule_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TKThemeManagerModule_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -42,8 +47,13 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		74D81367D4F47374D1477A04 /* Pods-TKThemeManagerModule_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TKThemeManagerModule_Example.release.xcconfig"; path = "Target Support Files/Pods-TKThemeManagerModule_Example/Pods-TKThemeManagerModule_Example.release.xcconfig"; sourceTree = "<group>"; };
-		8B0D6807C37DC25C05F4BD9B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		8B0D6807C37DC25C05F4BD9B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		939AD6288AB99E4D375CAACD /* Pods_TKThemeManagerModule_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TKThemeManagerModule_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B24357E269981D600A5B78D /* ThemeProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeProtocol.swift; sourceTree = "<group>"; };
+		9B243580269981F200A5B78D /* LightTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightTheme.swift; sourceTree = "<group>"; };
+		9B2435822699822F00A5B78D /* DarkTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkTheme.swift; sourceTree = "<group>"; };
+		9B2435842699828900A5B78D /* ThemeType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeType.swift; sourceTree = "<group>"; };
+		9B24358A2699858A00A5B78D /* SubViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubViewController.swift; sourceTree = "<group>"; };
 		BFE11EED73BDA05381719A98 /* Pods-TKThemeManagerModule_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TKThemeManagerModule_Tests.debug.xcconfig"; path = "Target Support Files/Pods-TKThemeManagerModule_Tests/Pods-TKThemeManagerModule_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D0CBA3C42BF0B9C505B1964F /* Pods_TKThemeManagerModule_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TKThemeManagerModule_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E61F05EAE83851FFBDC43DA5 /* Pods-TKThemeManagerModule_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TKThemeManagerModule_Tests.release.xcconfig"; path = "Target Support Files/Pods-TKThemeManagerModule_Tests/Pods-TKThemeManagerModule_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -93,12 +103,15 @@
 		607FACD21AFB9204008FA782 /* Example for TKThemeManagerModule */ = {
 			isa = PBXGroup;
 			children = (
+				9B24357D269981CA00A5B78D /* Test */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
+				9B2435842699828900A5B78D /* ThemeType.swift */,
+				9B24358A2699858A00A5B78D /* SubViewController.swift */,
 			);
 			name = "Example for TKThemeManagerModule";
 			path = TKThemeManagerModule;
@@ -147,8 +160,17 @@
 				BFE11EED73BDA05381719A98 /* Pods-TKThemeManagerModule_Tests.debug.xcconfig */,
 				E61F05EAE83851FFBDC43DA5 /* Pods-TKThemeManagerModule_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		9B24357D269981CA00A5B78D /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				9B24357E269981D600A5B78D /* ThemeProtocol.swift */,
+				9B243580269981F200A5B78D /* LightTheme.swift */,
+				9B2435822699822F00A5B78D /* DarkTheme.swift */,
+			);
+			path = Test;
 			sourceTree = "<group>";
 		};
 		A14DEDCE1B073AF3BC0BEEAC /* Frameworks */ = {
@@ -213,6 +235,7 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = W4RKLQZZCQ;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
@@ -227,6 +250,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -331,8 +355,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B2435832699822F00A5B78D /* DarkTheme.swift in Sources */,
+				9B24357F269981D600A5B78D /* ThemeProtocol.swift in Sources */,
+				9B24358B2699858A00A5B78D /* SubViewController.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				9B243581269981F200A5B78D /* LightTheme.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				9B2435852699828900A5B78D /* ThemeType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -478,6 +507,7 @@
 			baseConfigurationReference = 5A80307F00F3358C5E18B4CF /* Pods-TKThemeManagerModule_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W4RKLQZZCQ;
 				INFOPLIST_FILE = TKThemeManagerModule/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -493,6 +523,7 @@
 			baseConfigurationReference = 74D81367D4F47374D1477A04 /* Pods-TKThemeManagerModule_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W4RKLQZZCQ;
 				INFOPLIST_FILE = TKThemeManagerModule/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
