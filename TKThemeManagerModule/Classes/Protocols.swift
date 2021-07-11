@@ -12,10 +12,12 @@ public protocol Theme {
 }
 
 protocol TKModel {
-    var target: UIView? { get set }
+    var target: View? { get set }
 }
 
 struct ThemeModel<T>: TKModel {
-    weak var target: UIView?
-    var closure: (_ target: UIView?, _ theme:T) -> Void
+    weak var target: View?
+    var closure: (_ target: View?, _ theme:T) -> Void
 }
+
+
